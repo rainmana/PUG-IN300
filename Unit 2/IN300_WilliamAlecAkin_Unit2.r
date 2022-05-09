@@ -8,7 +8,7 @@
 
 
 # Prompt user to input a number between 1 and 100 and assign it to the variable "userNumber"
-user_number <- readline(prompt="Please enter a number between 1 and 100: ")
+user_number <- readline(prompt="Please enter a number between 0 and 100: ")
 
 # Validate that user_number is an integer or produce error message
 
@@ -17,9 +17,9 @@ user_number <- as.numeric(user_number)
 
 # Using IF/ELSE statements in R, determine a letter grade (A, B, C, D, F) based on value of user_number
 if (user_number > 100){
-  print("Invalid score. Please enter a value between 1 and 100 and try again.")
+  print("Invalid score. Please enter a value between 0 and 100 and try again.")
 } else if (user_number < 0){
-  print("Invalid score. Please enter a value between 1 and 100 and try again.")
+  print("Invalid score. Please enter a value between 0 and 100 and try again.")
 } else if (user_number >= 90){
   print("The score you entered is an A.")
 } else if (user_number >= 80){
