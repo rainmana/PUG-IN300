@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Darth Vader",
+    "species": "Human",
+    "height": "202"
+  },
+  {
+    "name": "Palpatine",
+    "species": "Human",
+    "height": "170"
+  },
+  {
+    "name": "Yoda",
+    "species": "Yoda's species",
+    "height": "66"
+  },
+  {
+    "name": "R2-D2",
+    "species": "Droid",
+    "height": "96"
+  }
+]
