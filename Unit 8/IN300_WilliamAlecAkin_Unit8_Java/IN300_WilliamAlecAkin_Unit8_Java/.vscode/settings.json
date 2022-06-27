@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/alec/Development/PUG-IN300/Unit 8/Unit8_Java/jfreechart-1.5.3.jar",
+        "/Users/alec/Development/javafx-sdk-18.0.1/lib/**/*.jar"
+    ]
+}
